@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -regex ".*\.gif" -ls
+ls -R | grep '\.gif'
